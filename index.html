@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroSense: Balance & Aroma</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <nav id="navbar">
+            <a href="#cenestesico">Cenestésico</a>
+            <a href="#vestibular">Vestibular</a>
+            <a href="#olfativo">Olfativo</a>
+        </nav>
+        <header class="hero">
+            <h1 class="hero-title">NeuroSense</h1>
+            <p class="sub-1">Balance & Aroma</p>
+            <p class="sub-2">Una vista acerca de la interacción de los sistemas cenestésico, vestibular y olfativo en la Interacción Humano-Computador</p>
+        </header>
+        <p class="text">Los sistemas cenestésico y vestibular, junto con el sistema olfativo, proporcionan información esencial para el movimiento, la postura y la interacción con el entorno. Aunque rara vez somos conscientes de ellos, son fundamentales en experiencias inmersivas de Realidad Virtual (RV). El sistema vestibular contribuye al equilibrio y la orientación espacial, mientras que el olfato, con su conexión directa al sistema límbico (relacionado con las emociones), ofrece nuevas posibilidades en las interfaces emocionales y entornos virtuales realistas. Sin embargo, su implementación en Interacción Humano-Computador (IHC) aún es limitada debido a los desafíos técnicos que presenta integrar estos estímulos. Es importante conocer como estos sistemas funcionan a detalle para saber como implementarlos en la interacción con los sistemas informáticos, a continuación expondremos detalladamente de su funcionamiento.</p>
+        <section id="cenestesico">
+            <h2 class="subtitle">Sistema Cenestésico</h2>
+            <p class="text"> El sentido cenestésico, uno de los sentidos somáticos, proporciona información tanto sobre lo que ocurre en la superficie del cuerpo como en su interior. Este sentido permite percibir la posición y el movimiento de las diferentes partes corporales, ya sea a través de movimientos activos o pasivos. <br><br>
+
+                El sistema nervioso central utiliza dos métodos principales para obtener estos datos: por un lado, monitorea las órdenes enviadas a los músculos, asumiendo que se ejecutan de forma correcta; por otro, recibe información directa de receptores sensoriales específicos situados en los ligamentos y articulaciones.
+            </p>
+            <h3 class="subsubtitle">Partes principales</h3>
+            <div class="partes">
+                <ul class="lists">
+                    <li class="text"><span>Fibras musculares intrafusales:</span> Detectan y reportan la longitud del músculo.</li>
+                    <li class="text"><span>Órgano tendinoso de Golgi:</span> Ubicado en la unión entre el tendón y el músculo, monitorea la tensión que el músculo ejerce sobre el tendón.</li>
+                    <li class="text"><span>Corpúsculos de Pacini:</span> Localizados en la fascia (membrana que recubre el músculo), detectan la presión aplicada sobre los músculos.</li>
+                    <li class="text"><span>Terminaciones nerviosas libres:</span> Distribuidas a través de la fascia muscular, perciben el dolor asociado con el esfuerzo prolongado o los calambres musculares.</li>
+                </ul>
+                <img src="/img/cenestesico.png" alt="Sistema cenestesico">
+            </div>
+                
+            <h3 class="subsubtitle">Implementación</h3>
+            <p class="text"> Este sistema es utilizado para diseñar interfaces que aprovechen la retroalimentación sensorial del usuario. Por ejemplo, los dispositivos hápticos emplean esta retroalimentación para crear sensaciones táctiles o de resistencia que permiten a los usuarios sentir texturas, vibraciones o presiones, mejorando la experiencia de uso en aplicaciones como realidad virtual, simuladores de entrenamiento y videojuegos. De esta manera, el sistema cenestésico contribuye a una interacción más intuitiva y natural, ya que el usuario puede recibir información no solo visual y auditiva, sino también a través del sentido del tacto y la percepción corporal.</p> <br> <br>
+            <p class="text">Un ejemplo de sorpresa sería el siguiente:</p>
+            <button id="showParagraphButton">Probar</button>
+            <div id="container"></div>
+        </section>
+        <section id="vestibular">
+            <h2 class="subtitle">Sistema Vestibular</h2>
+            <p class="text"> Este sistema es una parte fundamental del oído interno, es encargado de darnos información acerca de la orientación, movimiento y aceleración. Usualmente no nos damos cuenta de este sentido, solo cuando los receptores de este sistema son estimulados. Tiene como función mantener el equilibrio del cuerpo y mantenerlo en posición erguida.
+            </p>
+            <h3 class="subsubtitle">Partes principales</h3>
+            <div class="partes">
+                <ul class="lists">
+                    <li class="text"><span>Canales semicirculares:</span> son los receptores de este sistema, son unos pequeños canales semicirculares, que están llenos de líquido. 
+                    </li>
+                    <li class="text"><span>Canal semicircular anterior:</span> Detecta los movimientos hacia adelante y hacia atrás (como cuando asientes con la cabeza).
+    
+                    </li>
+                    <li class="text"><span>Canal semicircular posterior:</span> Detecta los movimientos de inclinación lateral de la cabeza.
+                        Canal semicircular lateral: Detecta los movimientos de rotación horizontal (como cuando giras la cabeza de lado a lado).
+                        </li>
+                    <li class="text"><span>Utrículo:</span> Detecta los movimientos lineales horizontales de la cabeza (como caminar en línea recta) y contribuye al equilibrio cuando la cabeza está en una posición erguida.
+                    </li>
+                    <li class="text"><span>Sáculo:</span> Similar al utrículo, pero se especializa en detectar movimientos lineales verticales (como saltar o subir escaleras).
+                    </li>
+                    <li class="text"><span>Ampollas:</span> En las bases de los canales semicirculares, contienen receptores sensoriales que detectan los movimientos de rotación de la cabeza.
+                    </li>
+                    <li class="text"><span>Ótolitros:</span> Son cristales de carbonato de calcio que se encuentran en el utrículo y el sáculo. Estos cristales ayudan a percibir la aceleración lineal y la gravedad.
+                    </li>
+                    <li class="text"><span>Nervio vestibular:</span> Lleva la información desde los receptores sensoriales del sistema vestibular hasta el cerebro para procesar la información sobre el equilibrio y la orientación.
+                        Cóclea: es una estructura en espiral dentro del oído interno, esencial para la audición.
+                    </li>
+                </ul>
+                <img src="/img/vestibular.jpg" alt="Sistema vestibular">
+            </div>
+
+            
+            <h3 class="subsubtitle">Implementación</h3>
+            <p class="text">Principalmente en aplicaciones de realidad virtual, para la creación de entornos que jueguen con las dimensiones, la profundidad, velocidad, etc. Un caso de uso sería en la simulación de vuelos.</p> <br> <br>
+            <p class="text">Esto también se puede lograr mediante movimientos bruscos en la cámara, por ejemplo en videojuegos</p>
+            <button id="rotateButton">Probar</button>
+        </section>
+        <section id="olfativo">
+            <h2 class="subtitle">Sistema Olfativo</h2>
+            <p class="text"> El sistema olfatorio percibe las moléculas odoríferas transmitidas por el aire. En el ser humano los olores brindan información sobre el medio ambiente, los alimentos, animales y otras personas que influyen sobre su conducta alimenticia y social. <br><br>
+            En el aspecto sensorial el sistema olfativo cumple funciones esenciales para la supervivencia y la adaptación al entorno. Una de sus principales tareas es la detección de peligros, permitiendo identificar amenazas como una fuga de gas, alimentos en mal estado o un incendio. Esta capacidad es crucial para evitar situaciones que podrían poner en riesgo la salud o la vida. El olfato también facilita el reconocimiento de olores, permitiendo distinguir diferentes aromas en el aire, como el olor de las comidas o las flores. Esta función está estrechamente vinculada con la identificación de alimentos, ya que a través del olfato podemos seleccionar aquellos que son más adecuados para el consumo y reconocer cuándo un alimento está fresco o deteriorado. 
+            </p>
+            <h3 class="subsubtitle">Partes principales</h3>
+            <div class="partes">
+                <ul class="lists">
+                    <li class="text"><span>Bulbo olfatorio:</span> Los bulbos olfatorios reciben información acerca de los olores de la nariz y la envían al cerebro a través de los tractos olfatorios.
+                    </li>
+                    <li class="text"><span>Lamina cribiforme:</span> Placa ósea localizada en el hueso etmoides dotada de perforaciones múltiples que se extiende a ambos lados de la crista galli, en la fosa craneal superior, a través de cuyos orificios discurren los tractos olfatorios.
+                    </li>
+                    <li class="text"><span>El epitelio olfatorio:</span> Es un tipo de epitelio cilíndrico pseudoestratificado que interviene en la percepción del olfato. Recubre la porción superior y los lados de la cavidad nasal y forma uno de los principales componentes de la mucosa olfatoria, junto con la lámina propia.
+                    </li>
+                    <li class="text"><span>Huesos turbinas:</span> Son estructuras óseas fundamentales en el sistema olfativo.
+                        Al bulbo olfatorio: es una estructura cerebral especializada que procesa la información de los olores.
+                        </li>
+                </ul>
+                <img src="/img/olfato.png" alt="Sistema olfativo">
+            </div>
+            
+            <h3 class="subsubtitle">Implementación</h3>
+            <p class="text">Un grupo de investigadores de la Universidad de Extremadura ha desarrollado una nariz electrónica que puede detectar olores gracias a un dispositivo pequeño (similar a un reloj) para reconocer diferentes compuestos volátiles.
+                El profesor explica que el dispositivo «imita las diferentes partes en las que consta el sentido del olfato humano. Primero lo que hay es una interacción entre los olores, que al final son compuestos volátiles, y los receptores olfativos que tenemos en nuestra nariz; eso lo hacemos mediante sensores de gases, es decir, ante una concentración de un gas genera una respuesta eléctrica». <br> <br>
+                </p>
+            <p class="text">
+                Lastimosamente, no hay forma de interactuar directamente con este sentido por las diferencias en sensibilidad que tenemos cada persona
+            </p>
+        </section>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
