@@ -146,3 +146,14 @@ button:hover {
 button:active {
     transform: scale(0.95); /* Hace que el botón se vea como si se hundiera al presionarlo */
 }
+
+#fuentes {
+    margin-top: 15rem;
+}
+#fuentes .subsubtitle{
+    color: #00beef;
+}
+
+a{
+    color: inherit;
+}
