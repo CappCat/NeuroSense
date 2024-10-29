@@ -22,7 +22,7 @@
         <p class="text">Los sistemas cenestésico y vestibular, junto con el sistema olfativo, proporcionan información esencial para el movimiento, la postura y la interacción con el entorno. Aunque rara vez somos conscientes de ellos, son fundamentales en experiencias inmersivas de Realidad Virtual (RV). El sistema vestibular contribuye al equilibrio y la orientación espacial, mientras que el olfato, con su conexión directa al sistema límbico (relacionado con las emociones), ofrece nuevas posibilidades en las interfaces emocionales y entornos virtuales realistas. Sin embargo, su implementación en Interacción Humano-Computador (IHC) aún es limitada debido a los desafíos técnicos que presenta integrar estos estímulos. Es importante conocer como estos sistemas funcionan a detalle para saber como implementarlos en la interacción con los sistemas informáticos, a continuación expondremos detalladamente de su funcionamiento.</p>
         <section id="cenestesico">
             <h2 class="subtitle">Sistema Cenestésico</h2>
-            <p class="text"> El sentido cenestésico, uno de los sentidos somáticos, proporciona información tanto sobre lo que ocurre en la superficie del cuerpo como en su interior. Este sentido permite percibir la posición y el movimiento de las diferentes partes corporales, ya sea a través de movimientos activos o pasivos. <br><br>
+            <p class="text"> El sentido cenestésico, uno de los sentidos somáticos, proporciona información tanto sobre lo que ocurre en la superficie del cuerpo como en su interior. Este sentido permite percibir la posición y el movimiento de las diferentes partes corporales, ya sea a través de movimientos activos o pasivos. <a href="#ref-1">[1]</a> <br><br>
 
                 El sistema nervioso central utiliza dos métodos principales para obtener estos datos: por un lado, monitorea las órdenes enviadas a los músculos, asumiendo que se ejecutan de forma correcta; por otro, recibe información directa de receptores sensoriales específicos situados en los ligamentos y articulaciones.
             </p>
@@ -32,20 +32,20 @@
                     <li class="text"><span>Fibras musculares intrafusales:</span> Detectan y reportan la longitud del músculo.</li>
                     <li class="text"><span>Órgano tendinoso de Golgi:</span> Ubicado en la unión entre el tendón y el músculo, monitorea la tensión que el músculo ejerce sobre el tendón.</li>
                     <li class="text"><span>Corpúsculos de Pacini:</span> Localizados en la fascia (membrana que recubre el músculo), detectan la presión aplicada sobre los músculos.</li>
-                    <li class="text"><span>Terminaciones nerviosas libres:</span> Distribuidas a través de la fascia muscular, perciben el dolor asociado con el esfuerzo prolongado o los calambres musculares.</li>
+                    <li class="text"><span>Terminaciones nerviosas libres:</span> Distribuidas a través de la fascia muscular, perciben el dolor asociado con el esfuerzo prolongado o los calambres musculares.<a href="#ref-4">[4]</a> </li>
                 </ul>
-                <img src="/img/cenestesico.png" alt="Sistema cenestesico">
+                <img src="img/cenestesico.png" alt="Sistema cenestesico">
             </div>
                 
             <h3 class="subsubtitle">Implementación</h3>
-            <p class="text"> Este sistema es utilizado para diseñar interfaces que aprovechen la retroalimentación sensorial del usuario. Por ejemplo, los dispositivos hápticos emplean esta retroalimentación para crear sensaciones táctiles o de resistencia que permiten a los usuarios sentir texturas, vibraciones o presiones, mejorando la experiencia de uso en aplicaciones como realidad virtual, simuladores de entrenamiento y videojuegos. De esta manera, el sistema cenestésico contribuye a una interacción más intuitiva y natural, ya que el usuario puede recibir información no solo visual y auditiva, sino también a través del sentido del tacto y la percepción corporal.</p> <br> <br>
-            <p class="text">Un ejemplo de sorpresa sería el siguiente:</p>
+            <p class="text"> Este sistema es utilizado para diseñar interfaces que aprovechen la retroalimentación sensorial del usuario. Por ejemplo, los dispositivos hápticos emplean esta retroalimentación para crear sensaciones táctiles o de resistencia que permiten a los usuarios sentir texturas, vibraciones o presiones, mejorando la experiencia de uso en aplicaciones como realidad virtual, simuladores de entrenamiento y videojuegos. De esta manera, el sistema cenestésico contribuye a una interacción más intuitiva y natural, ya que el usuario puede recibir información no solo visual y auditiva, sino también a través del sentido del tacto y la percepción corporal.<a href="#ref-5">[5]</a> </p> <br> <br>
+            <p class="text">Un ejemplo de sorpresa sería el siguiente: </p>
             <button id="showParagraphButton">Probar</button>
             <div id="container"></div>
         </section>
         <section id="vestibular">
             <h2 class="subtitle">Sistema Vestibular</h2>
-            <p class="text"> Este sistema es una parte fundamental del oído interno, es encargado de darnos información acerca de la orientación, movimiento y aceleración. Usualmente no nos damos cuenta de este sentido, solo cuando los receptores de este sistema son estimulados. Tiene como función mantener el equilibrio del cuerpo y mantenerlo en posición erguida.
+            <p class="text"> Este sistema es una parte fundamental del oído interno, es encargado de darnos información acerca de la orientación, movimiento y aceleración. Usualmente no nos damos cuenta de este sentido, solo cuando los receptores de este sistema son estimulados. Tiene como función mantener el equilibrio del cuerpo y mantenerlo en posición erguida.<a href="#ref-1">[1]</a>
             </p>
             <h3 class="subsubtitle">Partes principales</h3>
             <div class="partes">
@@ -70,7 +70,7 @@
                         Cóclea: es una estructura en espiral dentro del oído interno, esencial para la audición.
                     </li>
                 </ul>
-                <img src="/img/vestibular.jpg" alt="Sistema vestibular">
+                <img src="img/vestibular.jpg" alt="Sistema vestibular">
             </div>
 
             
@@ -81,8 +81,8 @@
         </section>
         <section id="olfativo">
             <h2 class="subtitle">Sistema Olfativo</h2>
-            <p class="text"> El sistema olfatorio percibe las moléculas odoríferas transmitidas por el aire. En el ser humano los olores brindan información sobre el medio ambiente, los alimentos, animales y otras personas que influyen sobre su conducta alimenticia y social. <br><br>
-            En el aspecto sensorial el sistema olfativo cumple funciones esenciales para la supervivencia y la adaptación al entorno. Una de sus principales tareas es la detección de peligros, permitiendo identificar amenazas como una fuga de gas, alimentos en mal estado o un incendio. Esta capacidad es crucial para evitar situaciones que podrían poner en riesgo la salud o la vida. El olfato también facilita el reconocimiento de olores, permitiendo distinguir diferentes aromas en el aire, como el olor de las comidas o las flores. Esta función está estrechamente vinculada con la identificación de alimentos, ya que a través del olfato podemos seleccionar aquellos que son más adecuados para el consumo y reconocer cuándo un alimento está fresco o deteriorado. 
+            <p class="text"> El sistema olfatorio percibe las moléculas odoríferas transmitidas por el aire. En el ser humano los olores brindan información sobre el medio ambiente, los alimentos, animales y otras personas que influyen sobre su conducta alimenticia y social.<a href="#ref-1">[1]</a> <br><br>
+            En el aspecto sensorial el sistema olfativo cumple funciones esenciales para la supervivencia y la adaptación al entorno. Una de sus principales tareas es la detección de peligros, permitiendo identificar amenazas como una fuga de gas, alimentos en mal estado o un incendio. Esta capacidad es crucial para evitar situaciones que podrían poner en riesgo la salud o la vida. El olfato también facilita el reconocimiento de olores, permitiendo distinguir diferentes aromas en el aire, como el olor de las comidas o las flores. Esta función está estrechamente vinculada con la identificación de alimentos, ya que a través del olfato podemos seleccionar aquellos que son más adecuados para el consumo y reconocer cuándo un alimento está fresco o deteriorado.<a href="#ref-2">[3]</a> 
             </p>
             <h3 class="subsubtitle">Partes principales</h3>
             <div class="partes">
@@ -97,16 +97,31 @@
                         Al bulbo olfatorio: es una estructura cerebral especializada que procesa la información de los olores.
                         </li>
                 </ul>
-                <img src="/img/olfato.png" alt="Sistema olfativo">
+                <img src="img/olfato.png" alt="Sistema olfativo">
             </div>
             
             <h3 class="subsubtitle">Implementación</h3>
             <p class="text">Un grupo de investigadores de la Universidad de Extremadura ha desarrollado una nariz electrónica que puede detectar olores gracias a un dispositivo pequeño (similar a un reloj) para reconocer diferentes compuestos volátiles.
-                El profesor explica que el dispositivo «imita las diferentes partes en las que consta el sentido del olfato humano. Primero lo que hay es una interacción entre los olores, que al final son compuestos volátiles, y los receptores olfativos que tenemos en nuestra nariz; eso lo hacemos mediante sensores de gases, es decir, ante una concentración de un gas genera una respuesta eléctrica». <br> <br>
+                El profesor explica que el dispositivo «imita las diferentes partes en las que consta el sentido del olfato humano. Primero lo que hay es una interacción entre los olores, que al final son compuestos volátiles, y los receptores olfativos que tenemos en nuestra nariz; eso lo hacemos mediante sensores de gases, es decir, ante una concentración de un gas genera una respuesta eléctrica».<a href="#ref-2">[2]</a>  <br> <br>
                 </p>
             <p class="text">
                 Lastimosamente, no hay forma de interactuar directamente con este sentido por las diferencias en sensibilidad que tenemos cada persona
             </p>
+        </section>
+        <section id="fuentes">
+            <h2 class="subsubtitle">Referencias</h2>
+            <ul class="lists">
+                <li class="text" id="ref-1"><span>[1]</span> L. S. P. G. José Cañas, «Sensación: los canales de entrada,» de La interacción Persona-Ordenador, Granada, Universidad de Granada, 2001, pp. 26-28.
+                </li>
+                <li class="text" id="ref-2"><span>[2]</span> A. Higuera, «Un equipo español crea una nariz electrónica que se integra en un reloj y detecta olores,» 20 bits, 6 Febrero 2023. [En línea]. Available: <a target="_blank" href="https://www.20minutos.es/tecnologia/emprendimiento/un-equipo-espanol-crea-una-nariz-electronica-que-se-integra-en-un-reloj-y-detecta-olores-5098576/">https://www.20minutos.es/tecnologia/emprendimiento/un-equipo-espanol-crea-una-nariz-electronica-que-se-integra-en-un-reloj-y-detecta-olores-5098576/</a>. [Último acceso: 23 Octubre 2024].
+                </li>
+                <li class="text" id="ref-3"><span>[3]</span> C. A. R. V. C. D. P. C. E. E. E. P. E. G.-L. V. L. J. F. M. T. M. R. P. J. T. M. Jesús A. Fernández-Tresguerres, «Fisiología humana 4e,» 2016. [En línea]. Available: <a target="_blank" href="https://accessmedicina.mhmedical.com/content.aspx?bookid=1858&sectionid=134361713">https://accessmedicina.mhmedical.com/content.aspx?bookid=1858&sectionid=134361713</a>. [Último acceso: 23 Octubre 2024].
+                </li>
+                <li class="text" id="ref-4"><span>[4]</span> D. E. &. C. K. E. Angelaki, «Vestibular system: The many facets of a multimodal sense,» de Annual Review of Neuroscience, San Mateo, <a target="_blank" href="https://doi.org/10.1146/annurev.neuro.31.060407.125555">https://doi.org/10.1146/annurev.neuro.31.060407.125555</a>, 2008, p. 125–150.
+                </li>
+                <li class="text" id="ref-5"><span>[5]</span> M. C. &. M. L. B. Schubert, «Physical Therapy,» de Vestibulo-ocular physiology underlying vestibular hypofunction, Oxford, <a target="_blank" href="https://doi.org/10.1093/ptj/84.4.373">https://doi.org/10.1093/ptj/84.4.373</a>, 2004, p. 373–385.
+                </li>
+            </ul>
         </section>
     </main>
     <script src="javascript.js"></script>
